@@ -121,13 +121,22 @@ img {
 /* body 3 */
 
 .body3 {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
     background-color: #E5E7Eb;
+}
+
+#author {
+    display: flex;
+    justify-content: right;
 }
 
 /* body 4 */
 
 .body4 {
-
 }
 
 .footer {
