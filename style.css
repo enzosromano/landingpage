@@ -10,6 +10,7 @@ body {
     justify-content: space-around;
 
     background-color: #1F2937;
+    padding-top: 10px;
     padding-bottom: 100px;
     
 }
@@ -126,4 +127,10 @@ img {
 /* body 4 */
 
 .body4 {
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
 }
