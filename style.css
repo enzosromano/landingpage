@@ -104,12 +104,7 @@ body {
     align-items: center;
     justify-content: center;
     background-color: #E5E7Eb;
-}
-
-img {
-    width: 100%;
-    height: auto;
-    max-height: 38vh;
+    text-align: center;
 }
 
 @media only screen and (max-width: 850px) {
@@ -128,6 +123,11 @@ img {
         justify-content: center;
         text-align: center;
     }
+
+    .rbody1{
+        width: 75%;
+        height: 250px;
+    }
   }
 
 /* body 2 */
@@ -142,6 +142,7 @@ img {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    text-align: center;
 }
 
 .bottom2 {
@@ -184,7 +185,66 @@ img {
 /* body 4 */
 
 .body4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.modal {
+    background-color: #3882F6;
+    width: 80%;
+    height: 40%;
+    border-radius: 12px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;;
+}
+
+.modaltext{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.modalheader {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.modalsubtext {
+    font-size: 18px;
+    color: #F9FAF8;
+}
+
+.modalbutton button{
+    width: 100px;
+    height: 30px;
+    border-radius: 12px;
+    border-color: #E5E7EB;
+    background-color: #3882F6;
+
+    color: #F9FAF8;
+    font-size: 14px;
+    font-weight: 1000;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .modal {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        text-align: center;
+    }
+
+}
+
+/* footer */
 
 .footer {
     display: flex;
