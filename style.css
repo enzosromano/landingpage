@@ -10,7 +10,8 @@ body {
     display: flex;
     justify-content: space-between;
 
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
+    background-color: #242582;
     padding: 10px 15% 100px 15%;
 }
 
@@ -23,7 +24,8 @@ body {
 .lnavbar a {
     text-decoration: none;
     font-size: 24px;
-    color: #F9FAF8;
+    /*color: #F9FAF8;*/
+    color: #F64C72;
     font-weight: bold;
 }
 
@@ -58,7 +60,8 @@ body {
 }
 
 .body1 {
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
+    background-color: #242582;
     display: flex;
     justify-content: center;
     gap: 5%;
@@ -93,7 +96,8 @@ body {
     font-weight: bolder;
     color: #E5E7EB;
 
-    background-color: #3882F6;
+    /*background-color: #3882F6;*/
+    background-color: #F64C72;
     width: 100px;
     height: 40px;
     border-radius: 12px;
@@ -133,6 +137,9 @@ body {
 /* body 2 */
 
 .body2 {
+    height: auto;
+    padding-bottom: 45px;
+    background-color: #99738E;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -141,7 +148,8 @@ body {
 .top2 {
     font-size: 36px;
     font-weight: bolder;
-    color: #1F2937;
+    /*color: #1F2937;*/
+    color: #F9FAF8;
     text-align: center;
 }
 
@@ -154,7 +162,27 @@ body {
 }
 
 .placeholderflex img {
-    max-width: 10vw;
+    max-width: 12vw;
+}
+
+@media only screen and (max-width: 850px) {
+
+    .body2 {
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .placeholderflex {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+  
+
+    .placeholderflex img {
+        max-width: 25vw;
+    }
 }
 
 /* body 3 */
@@ -250,6 +278,7 @@ body {
     display: flex;
     justify-content: center;
 
-    background-color: #1F2937;
+    /*background-color: #1F2937;*/
+    background-color: #242582;
     color: #E5E7EB;
 }
