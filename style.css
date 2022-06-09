@@ -153,6 +153,10 @@ body {
     text-align: center;
 }
 
+.linkdescriptions {
+    font-size: 16px;
+}
+
 .bottom2 {
 }
 
@@ -164,6 +168,15 @@ body {
 .placeholderflex img {
     max-width: 12vw;
     width: 10vw;
+    border: 8px solid #F9FAF8;
+    border-radius: 75%;
+    border-width: 8px;
+    border-style: inset;
+    background-color: #F9FAF8;
+}
+
+.placeholderflex img:hover {
+    border-width: 10px;
 }
 
 @media only screen and (max-width: 850px) {
