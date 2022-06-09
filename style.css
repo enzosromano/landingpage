@@ -200,7 +200,8 @@ body {
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
-    color: #1F2937;
+    /*color: #1F2937;*/
+    color: #242582;
 }
 
 #author {
@@ -208,6 +209,7 @@ body {
     justify-content: right;
     font: 28px;
     font-weight: bolder;
+    color: #242582;
 }
 
 /* body 4 */
@@ -219,7 +221,8 @@ body {
 }
 
 .modal {
-    background-color: #3882F6;
+    /*background-color: #3882F6;*/
+    background-color: #F64C72;
     width: 80%;
     height: 40%;
     border-radius: 12px;
@@ -251,7 +254,8 @@ body {
     height: 30px;
     border-radius: 12px;
     border-color: #E5E7EB;
-    background-color: #3882F6;
+    /*background-color: #3882F6;*/
+    background-color: #F64C72;
 
     color: #F9FAF8;
     font-size: 14px;
