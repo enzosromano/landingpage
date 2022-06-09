@@ -168,10 +168,10 @@ body {
 .placeholderflex img {
     max-width: 12vw;
     width: 10vw;
-    border: 8px solid #F9FAF8;
+    border-style: inset;
     border-radius: 75%;
     border-width: 8px;
-    border-style: inset;
+    border-color: #F9FAF8;
     background-color: #F9FAF8;
 }
 
