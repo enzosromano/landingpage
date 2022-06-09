@@ -163,6 +163,9 @@ body {
 
 .placeholderflex img {
     max-width: 12vw;
+    width: 12vw;
+    border-radius: 12px;
+    border: 12px solid #F9FAF8;
 }
 
 @media only screen and (max-width: 850px) {
@@ -173,6 +176,7 @@ body {
     }
 
     .placeholderflex {
+        height: auto;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -181,7 +185,9 @@ body {
   
 
     .placeholderflex img {
-        max-width: 25vw;
+        max-width: 40vw;
+        width: 25vw;
+        height: auto;
     }
 }
 
