@@ -163,9 +163,7 @@ body {
 
 .placeholderflex img {
     max-width: 12vw;
-    width: 12vw;
-    /*border-radius: 12px;
-    border: 12px solid #F9FAF8;*/
+    width: 10vw;
 }
 
 @media only screen and (max-width: 850px) {
